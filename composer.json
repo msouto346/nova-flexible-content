@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Whitecube\\NovaFlexibleContent\\": "src/"
+            "Msouto\\NovaFlexibleContent\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Whitecube\\NovaFlexibleContent\\FieldServiceProvider"
+                "Msouto\\NovaFlexibleContent\\FieldServiceProvider"
             ]
         }
     },
