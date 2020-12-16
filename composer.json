@@ -1,5 +1,5 @@
 {
-    "name": "pdmfc/nova-flexible-content",
+    "name": "msouto/nova-flexible-content",
     "description": "Flexible Content & Repeater Fields for Laravel Nova.",
     "license": "MIT",
     "keywords": [
@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Pdmfc\\NovaFlexibleContent\\": "src/"
+            "Msouto\\NovaFlexibleContent\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pdmfc\\NovaFlexibleContent\\FieldServiceProvider"
+                "Msouto\\NovaFlexibleContent\\FieldServiceProvider"
             ]
         }
     },
