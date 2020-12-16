@@ -65,6 +65,11 @@
 
                 this.isLayoutsDropdownOpen = false;
             },
+        },
+      mounted() {
+        if (this.field.defaultLayout && this.layouts.length === 1) {
+          this.$nextTick(() => this.addGroup(this.layouts[0]))
         }
+      }
     }
 </script>

@@ -1,5 +1,5 @@
 {
-    "name": "whitecube/nova-flexible-content",
+    "name": "pdmfc/nova-flexible-content",
     "description": "Flexible Content & Repeater Fields for Laravel Nova.",
     "license": "MIT",
     "keywords": [
@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Whitecube\\NovaFlexibleContent\\": "src/"
+            "Pdmfc\\NovaFlexibleContent\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Whitecube\\NovaFlexibleContent\\FieldServiceProvider"
+                "Pdmfc\\NovaFlexibleContent\\FieldServiceProvider"
             ]
         }
     },

@@ -630,4 +630,16 @@ class Flexible extends Field
     {
         return static::$model;
     }
+
+    /**
+     * If there is only one layout load one group by default
+     *
+     * @param bool $value
+     * @return mixed
+     */
+    public function loadWithDefaultLayout(bool $value = false)
+    {
+        $this->withMeta(['defaultLayout' => $value]);
+        return $this;
+    }
 }
