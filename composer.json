@@ -1,5 +1,5 @@
 {
-    "name": "msouto/nova-flexible-content",
+    "name": "Msouto/nova-flexible-content",
     "description": "Flexible Content & Repeater Fields for Laravel Nova.",
     "license": "MIT",
     "keywords": [
@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Msouto\\NovaFlexibleContent\\": "src/"
+            "Whitecube\\NovaFlexibleContent\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Msouto\\NovaFlexibleContent\\FieldServiceProvider"
+                "Whitecube\\NovaFlexibleContent\\FieldServiceProvider"
             ]
         }
     },

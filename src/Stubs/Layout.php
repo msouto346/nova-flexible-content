@@ -2,7 +2,7 @@
 
 namespace App\Nova\Flexible\Layouts;
 
-use Whitecube\NovaFlexibleContent\Layouts\Layout;
+use Msouto\NovaFlexibleContent\Layouts\Layout;
 
 class :classname extends Layout
 {

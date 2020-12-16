@@ -1,18 +1,18 @@
 <?php
 
-namespace Whitecube\NovaFlexibleContent\Concerns;
+namespace Msouto\NovaFlexibleContent\Concerns;
 
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\MediaRepository;
-use Whitecube\NovaFlexibleContent\FileAdder\FileAdder;
-use Whitecube\NovaFlexibleContent\FileAdder\FileAdderFactory;
-use Whitecube\NovaFlexibleContent\Flexible;
+use Msouto\NovaFlexibleContent\FileAdder\FileAdder;
+use Msouto\NovaFlexibleContent\FileAdder\FileAdderFactory;
+use Msouto\NovaFlexibleContent\Flexible;
 use Spatie\MediaLibrary\HasMedia;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Nova;
 use Illuminate\Support\Collection;
 use Ebess\AdvancedNovaMediaLibrary\Fields\Media;
-use Whitecube\NovaFlexibleContent\Http\ScopedRequest;
+use Msouto\NovaFlexibleContent\Http\ScopedRequest;
 
 trait HasMediaLibrary {
 
@@ -100,7 +100,7 @@ trait HasMediaLibrary {
      * Should remove all related medias except if shouldDeletePreservingMedia returns true
      *
      * @param  Flexible $flexible
-     * @param  Whitecube\NovaFlexibleContent\Layout $layout
+     * @param  Msouto\NovaFlexibleContent\Layout $layout
      *
      * @return mixed
      */

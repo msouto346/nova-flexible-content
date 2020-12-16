@@ -2,7 +2,7 @@
 
 namespace App\Casts;
 
-use Whitecube\NovaFlexibleContent\Value\FlexibleCast;
+use Msouto\NovaFlexibleContent\Value\FlexibleCast;
 
 class :classname extends FlexibleCast
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Whitecube\NovaFlexibleContent\Http;
+namespace Msouto\NovaFlexibleContent\Http;
 
 use Illuminate\Support\Arr;
 
@@ -86,7 +86,7 @@ class FlexibleAttribute
      * @param  string $group
      * @param  mixed $key
      * @param  bool $upload
-     * @return \Whitecube\NovaFlexibleContent\Http\FlexibleAttribute
+     * @return \Msouto\NovaFlexibleContent\Http\FlexibleAttribute
      */
     public static function make($name, $group = null, $key = null, $upload = false)
     {
@@ -129,7 +129,7 @@ class FlexibleAttribute
      * Return a FlexibleAttribute instance matching the target upload field
      *
      * @param mixed $value
-     * @return \Whitecube\NovaFlexibleContent\Http\FlexibleAttribute
+     * @return \Msouto\NovaFlexibleContent\Http\FlexibleAttribute
      */
     public function getFlexibleFileAttribute($value)
     {
@@ -244,7 +244,7 @@ class FlexibleAttribute
      * Return a new instance with appended key
      *
      * @param string $key
-     * @return \Whitecube\NovaFlexibleContent\Http\FlexibleAttribute
+     * @return \Msouto\NovaFlexibleContent\Http\FlexibleAttribute
      */
     public function nest($key)
     {
